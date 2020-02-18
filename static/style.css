@@ -1,0 +1,335 @@
+@font-face {
+    font-family: "QyuFont";
+    src: url('big_noodle_titling.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "QyuFont-Carlito";
+    src: url('Carlito-Regular.ttf') format("truetype");
+}
+
+body
+{
+    font-family: "QyuFont", Verdana;
+    background-color: #1B1B1B;
+
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+
+.Header-button
+{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#Main
+{
+    display: flex;
+    flex-direction: column;
+
+    color: rgb(200, 200, 200);
+    background-color: rgb(10, 10, 10);
+}
+
+#Title
+{
+    
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+#Title div
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.75%, -320%);
+}
+
+#Title h1
+{
+    font-size: 86px;
+    margin: 0;
+}
+
+#Title h2
+{
+    font-size: 32px;
+    margin: 0;
+}
+
+.Title-image
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -50%);
+    width: 900px;
+    height: 570px;
+    opacity: 0.25;
+}
+
+#Presentation
+{
+    display: flex;
+    flex-direction: row;
+
+    border-top: 25px solid #FFFAEC;
+    border-bottom: 25px solid #FFFAEC;
+}
+
+.Presentation-picture
+{
+    border-right: 7px solid #FFFAEC;
+    flex: 1;
+}
+
+.Presentation-description-wrapper
+{
+    flex: 1;
+}
+
+.Presentation-description
+{
+    font-family: "QyuFont-Carlito", Verdana;
+    font-size: 1rem;
+
+    padding: 100px;
+    border-left: 7px solid #FFFAEC;
+
+    white-space: pre-line;
+}
+
+#Collaborators
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 25px solid #FFFAEC;
+}
+
+.Collaborators-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Collaborators-item
+{
+    width: 24vw;
+    height: 14vw;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Collaborators-item img, .Collaborators-item p
+{
+    display: none;
+}
+
+#Information
+{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 25px solid white;
+}
+
+.Information-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Information-item
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Information-item-image
+{
+    width: 135px;
+    height: 135px;
+    border-radius: 512px;
+    background-color: white;
+    margin-bottom: 5px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Information-item-count
+{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.Information-item-text
+{
+    margin-bottom: 5px;
+}
+
+#NextProjets
+{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 25px solid white;
+}
+
+.NextProjets-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.NextProjets-item
+{
+    width: 24vw;
+    height: 14vw;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.NextProjets-item img, .NextProjets-item p
+{
+    display: none;
+}
+
+#Companies
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 25px solid white;
+}
+
+.Companies-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: white;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Companies-list img
+{
+    height: 200px;
+}
+
+#Contact
+{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.Contact-input
+{
+    font-size: 16px;
+    font-family: "QyuFont", Verdana;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+#Modal
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    flex-direction: row;
+    
+    width: 75%;
+    height: 50%;
+
+    color: white;
+    background-color: rgb(17, 17, 17, 0.95);
+
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.5);
+    border-radius: 8px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Modal-image
+{
+    flex: 1;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.Modal-text
+{
+    flex: 1;
+
+    font-family: "QyuFont-Carlito", Verdana;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 40px;
+
+    font-size: 1.3vw;
+    white-space: pre-line;
+
+}
