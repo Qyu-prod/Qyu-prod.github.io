@@ -8,6 +8,11 @@
     src: url('Carlito-Regular.ttf') format("truetype");
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     font-family: "QyuFont", Verdana;
@@ -55,16 +60,16 @@ header
     color: white;
     text-align: center;
     height: 100vh;
-    
+    overflow: hidden;
 }
 
 #Title div
 {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 20px;
     left: 50%;
-    transform: translate(-49.75%, -320%);
+    transform: translate(-49.75%, 0);
 }
 
 #Title h1
@@ -85,9 +90,9 @@ header
     top: 50%;
     left: 50%;
     transform: translate(-49%, -50%);
-    width: 900px;
-    height: 570px;
+    height: 70vh;
     opacity: 0.25;
+    
 }
 
 #Presentation
@@ -130,11 +135,12 @@ header
     white-space: pre-line;
 }
 
+
 #Collaborators
 {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
     border-bottom: 25px solid #FFFAEC;
 }
 
@@ -203,8 +209,9 @@ header
 #Information
 {
     padding: 20px;
+    padding-bottom: 80px;
     text-align: center;
-    border-bottom: 25px solid white;
+    border-bottom: 25px solid #FFFAEC;
 }
 
 .Information-list
@@ -229,7 +236,7 @@ header
     width: 135px;
     height: 135px;
     border-radius: 512px;
-    background-color: white;
+    background-color: #FFFAEC;
     margin-bottom: 5px;
 
     background-size: cover;
@@ -252,7 +259,8 @@ header
 {
     text-align: center;
     padding: 20px;
-    border-bottom: 25px solid white;
+    padding-bottom: 80px;
+    border-bottom: 25px solid #FFFAEC;
 }
 
 .NextProjects-list
@@ -288,8 +296,8 @@ header
 {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 25px solid white;
+    padding-bottom: 80px;
+    border-bottom: 25px solid #FFFAEC;
 }
 
 .Formations-list
