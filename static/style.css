@@ -31,6 +31,10 @@ header
 
 .Header-button
 {
+    color: white;
+    text-decoration: none;
+    outline: none;
+
     margin-left: 4px;
     margin-right: 4px;
 }
@@ -106,6 +110,15 @@ header
     flex: 1;
 }
 
+.Presentation-picture
+{
+    background-image: url('wbarbier.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
 .Presentation-description
 {
     font-family: "QyuFont-Carlito", Verdana;
@@ -144,6 +157,7 @@ header
 
 .Collaborators-Button
 {
+    color: black;
     background-color: white;
     cursor: pointer;
 }
@@ -167,7 +181,7 @@ header
     display: block;
     list-style: none;
     height: 14vw;
-    background-color: white;
+    background-color: black;
     border-radius: 8px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -197,6 +211,7 @@ header
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -206,6 +221,7 @@ header
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 10px;
 }
 
 .Information-item-image
@@ -232,22 +248,22 @@ header
     margin-bottom: 5px;
 }
 
-#NextProjets
+#NextProjects
 {
     text-align: center;
     padding: 20px;
     border-bottom: 25px solid white;
 }
 
-.NextProjets-list
+.NextProjects-list
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
-.NextProjets-item
+.NextProjects-item
 {
     width: 24vw;
     height: 14vw;
@@ -263,12 +279,12 @@ header
     background-repeat: no-repeat;
 }
 
-.NextProjets-item img, .NextProjets-item p
+.NextProjects-item img, .NextProjects-item p
 {
     display: none;
 }
 
-#Companies
+#Formations
 {
     text-align: center;
     padding-top: 20px;
@@ -276,7 +292,7 @@ header
     border-bottom: 25px solid white;
 }
 
-.Companies-list
+.Formations-list
 {
     display: flex;
     flex-direction: row;
@@ -288,32 +304,44 @@ header
     padding-bottom: 20px;
 }
 
-.Companies-list img
+.Formations-list img
 {
-    height: 200px;
+    height: 10vw;
 }
 
 #Contact
 {
-    display: flex;
-    flex-direction: column;
-
     text-align: center;
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.Contact-input
+h2
 {
-    font-size: 16px;
-    font-family: "QyuFont", Verdana;
+    
+}
 
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+p
+{
     color: white;
-    background-color: rgb(0, 0, 0);
-    border: none;
-    border-bottom: 2px solid white;
+    margin-top: 40px;
+}
+
+.contact-social
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.contact-social img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #Modal-wrapper
