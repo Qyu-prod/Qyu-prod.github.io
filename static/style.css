@@ -139,7 +139,11 @@ header
     font-family: "QyuFont-Lato-Light", Verdana;
     font-size: 1rem;
 
-    padding: 150px; 300px; 150px; 300px
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-up: 150px;
+    padding-down: 150px;
+    
     border-left: 7px solid #FFFAEC;
 
     white-space: pre-line;
