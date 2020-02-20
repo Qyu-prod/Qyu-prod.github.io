@@ -8,6 +8,16 @@
     src: url('Carlito-Regular.ttf') format("truetype");
 }
 
+@font-face {
+    font-family: "QyuFont-Lato-Light";
+    src: url('Lato-Light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "QyuFont-Lato-Legular";
+    src: url('Lato-Regular.ttf') format("truetype");
+}
+
 html
 {
     scroll-behavior: smooth;
@@ -126,7 +136,7 @@ header
 
 .Presentation-description
 {
-    font-family: "QyuFont-Carlito", Verdana;
+    font-family: "QyuFont-Lato-Light", Verdana;
     font-size: 1rem;
 
     padding: 100px;
@@ -135,6 +145,10 @@ header
     white-space: pre-line;
 }
 
+.Presentation-description strong
+{
+    font-family: "QyuFont-Lato-Regular", Verdana;
+}
 
 #Collaborators
 {
