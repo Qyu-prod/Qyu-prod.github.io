@@ -7,10 +7,10 @@
 <body>
     
     <header>
-        <a class="Header-button" href="#Presentation">PRÉSENTATION</a>|
+        <a class="Header-button" href="#Presentation">PRESENTATION</a>|
         <a class="Header-button" href="#Collaborators">COLLABORATIONS</a>|
-        <a class="Header-button" href="#Information">EN SAVOIR PLUS</a>|
-        <a class="Header-button" href="#NextProjects">PROJETS À VENIR</a>|
+        <a class="Header-button" href="#Information">FURTHER DETAILS</a>|
+        <a class="Header-button" href="#NextProjects">INCOMING PROJECTS</a>|
         <a class="Header-button" href="#Formations">FORMATIONS</a>|
         <a class="Header-button" href="#Contact">CONTACT</a>
     </header>
@@ -19,7 +19,7 @@
             <img class="Title-image" src="static/Qyu_Final.png" alt="Qyu"/>
             <div>
                 <h1>QYU</h1>
-                <h2>PRODUCTION AUDIOVISUELLE & GRAPHIQUE</h2>
+                <h2>AUDIOVISUAL & GRAPHIC PRODUCTION</h2>
             </div>
             
         </div>
@@ -27,60 +27,53 @@
             <div class="Presentation-picture">
                 
             </div>
-            <div class="Presentation-description-wrapper"><div class="Presentation-description"><strong>Je m’appelle William Barbier, je suis né en Janvier 2000 dans les alentours de Paris, c’est dès mes premières années que je suis tombé dans l’univers vidéo-ludique, et le web
+            <div class="Presentation-description-wrapper"><div class="Presentation-description"><strong>My name is William Barbier, I was born in January 2000 in the surroundings of Paris, it is since my first years that I fell into the video-gaming universe, and the web
             </strong>
-Mon enfance fut pleine d’aventures, d’histoires en tous genre, à devoir trouver des princesses et exterminer des monstres. Des fables et contes racontés par des passionnés. C’est de là où vient mon envie de raconter des histoires à ma façon, et par conséquent, ma créativité. Certaines disent que c’est de là d’où vient mon excentricité.
+My childhood was full of adventures, stories of every kind, having to find princesses and exterminate monsters. Fables and tales told by passionate people. That’s where my desire to tell stories comes from in my own way, and therefore my creativity. Some say that’s where my eccentricity comes from.
 
-Je commence à appréhender le web très tôt sur le vieil ordinateur qui tournait à tour de rôle, quand mes frères voulaient bien me le laisser. C’est à partir de ce moment que ma passion pour internet, son histoire et sa culture se confirme.
+I begin to apprehend the web very early on the old computer which rotated in turn, when my brothers would leave it to me. It is from this moment that my passion for the Internet, its history and its culture is confirmed.
 
-C’est donc tout naturellement qu’après mon BAC L j’ai commencé à devenir à mon tour un créateur, en me formant de façon autonome sur les plateformes qui ont fait mon divertissement jusque là, mais qui aujourd’hui me donnent les outils nécessaires pour évoluer. 
+It is therefore quite natural that after my baccalaureate in literature I began to become in my turn, a creator, by training myself autonomously on the platforms that have made my entertainment until then, but that today give me the necessary tools to evolve.
 
-Dans ma course, des sociétés ont su voir un certain potentiel pour me faire confiance, afin de travailler avec eux, et pour d’autres, me former, et ce même à l’international.
+In my race, some companies saw a certain potential to trust me, to work with them, and for others, to train me, even internationally.
 
-Aujourd’hui, Qyu est ce qui représente mon nom en tant que créateur, dans la production audiovisuelle et graphique.
+Today, Qyu is what represents my name as a creator, in audiovisual and graphic production.
             </div></div>
         </div>
         <div id="Collaborators">
-            <h2>PERSONNES AVEC QUI J'AI COLLABORÉ</h2>
+            <h2>PEOPLE WHICH I COLLABORED WITH</h2>
             <div class="Collaborators-lists-wrapper">
                 <div class="Collaborators-list carousel1">
                     <div class="Collaborators-item" onClick="ShowModal(this)">
                         <img src="static/Scorteck.png" title="Scorteck" alt="Scorteck"/>
-                        <p>Casey « Scorteck » Beaugrand est un joueur de FPS de haut niveau qui a fait le succès de plusieurs équipes E-sport tel que Exalty, Oserv ou encore Oplon, et dernièrement Rivage. Venant du grand Nord, il est connu par beaucoup de ses camarades et ennemies du milieu pour être celui qui pratique l’art du Top 1 sur Fortnite, à même son lit, et de détruire la concurrence de cette façon.
-    
-    Scorteck m’a fait confiance pour que sa chaine Youtube soit mise en avant au travers de montages, que ce soit pour présenter ses performances, ou faire rire son audience. Je lui assure aussi une part de visibilité, en le conseillant sur Twitter, mais aussi en mettant en avant sa chaine Youtube, afin qu’elle atteigne chaque semaine des records au niveau de sa popularité.</p>
+                        <p>Casey «Scorteck» Beaugrand is a high-level FPS player who has made the success of several E-sport teams such as Exalty, Oserv or Oplon, and recently Rivage. Coming from the far north of the France, he is known by many of his comrades and enemies, to be the one who practices the art of the Victory Royale, in his bed, and destroy the competition in this way. Scorteck has trusted to take on his Youtube channel, to be 
+highlighted through video editing, whether to present his performances, or make his audience laugh. I also give him some visibility by advising him on Twitter, but also by pushing forward his Youtube channel, so that he can reach weekly records in terms of popularity.</p>
                     </div>
                     <div class="Collaborators-item" onClick="ShowModal(this)">
                         <img src="static/Les_ateliers_de_Thierry_1080.png" title="Les ateliers de Thierry" alt="Les ateliers de Thierry"/>
-                        <p>Les Ateliers de Thierry est une société de pâtisserie itinérante qui est là pour apprendre aux petits comme aux grands à faire de délicieuses créations avec ses mains. Thierry est un chef étoilé qui a travaillé dans de nombreux restaurants prestigieux, et qui est là pour vous garantir un moment aussi amusant que ludique, dans ses ateliers pâtisserie, en Ariège.
-    Thierry m’a fait confiance pour lui apporter un peu d’aide graphique et photo dont il a besoin, afin de promouvoir son atelier à ses clients.</p>
+                        <p>Les Ateliers de Thierry is a wandering pastry company, that teaches to young and old alike how to make delicious creations with their hands. Thierry is a great chef who has worked in many prestigious restaurants, and who is there to guarantee you a fun and playful moment in his pastry workshops in Ariège. Thierry has trusted me to provide him with some graphic and photo help he needs, in order to promote his workshop to his clients.</p>
                     </div>
                     <div class="Collaborators-item" onClick="ShowModal(this)">
                         <img src="static/Affiche_fleuriste.png" title="Fleuriste" alt="Fleuriste"/>
-                        <p>La Fleur du Petit Prince est une ravissante petite boutique de fleurs, avec un personnel aussi sympathique qu’attentionné. Elles sauront vous conseiller pour fleurir votre vie, celle de vos proches et bien aimés.
-    Ces fleuristes m’ont demandé de réaliser une grande affiche, afin de promouvoir leur magasin, et leur apporter plus de clients.</p>
+                        <p>La Fleur du Petit Prince is a lovely little flower shop, with a friendly and attentive staff. They will be able to advise you to flourish your life, but also for the ones you love. These florists asked me to make a big poster, to promote their store, bringing them more customers.</p>
                     </div>
                     <div class="Collaborators-item" onClick="ShowModal(this)">
                         <img src="static/skars.png" title='Xavier "Vyn" Esnault' alt='Xavier "Vyn" Esnault'/>
-                        <p>Skars… Et bien c’est moi. C’est ainsi que j’ai commencé à toucher à la magie du montage. Je faisais des vidéos dans mon temps libre, parce que je trouvais ça amusant, mais avant tout parce que je voulais faire rire mes amis. Mais il faut croire que ça n’a pas plus qu’à moi de faire ça ! Je faisais très peu de chiffres, malgré tout le plaisir que je tirais à faire ça était, quand à lui, très fructueux.
-                            Malheureusement j’ai dû laisser tomber ma chaine pour poursuivre d’autres projets. Malgré tout ça n’a pas été pour rien, parce que vous voilà ici entrain de lire ce que j’écris.</p>
+                        <p>Skars… Well, that’s me. That’s how I started to touch to the magic of editing. I made videos in my spare time, because I found it amusing, but mostly because I wanted to make my friends laugh.  I made very few views, despite all the pleasure I drew to do this was, as for my viewers, very fruitful. Unfortunately, I had to give up my channel to pursue other projects. Despite this, my previous work was not for nothing, because here you are, reading what I am writing.</p>
                     </div>
                 </div>
                 <div class="Collaborators-list carousel2">
                     <div class="Collaborators-item" onClick="ShowModal(this)">
                         <img src="static/re_xesnault.jpg" title='Xavier "Vyn" Esnault' alt='Xavier "Vyn" Esnault'/>
-                        <p>Xavier « Vyn » Esnault est un développeur que je qualifierai de touche à tout. Il a travaillé pour du web, software, système, et réseau, mais l’une de ses passions reste tout de même l’IA. Il a déjà conçu des robots programmés dit « bot » pour l’application Discord.
-    Il a aussi programmé pour des jeux vidéos, notamment des modules assez populaires à présent sur la plateforme de workshop de Garry’s Mod.
-    Le voici donc ici car il a codé le site que je lui ai demandé de faire à partir des instructions fournies. C’est une personne sérieuse, compétente, et qui sait faire des propositions ingénieuses pour rendre un projet plus vivant.</p>
+                        <p>Xavier «Vyn» Esnault is a developer that I would call touch to everything. He has worked for web, software, system, and network, but one of his passions is still AI. He has already designed programmed bots for the Discord application. He has also programmed for video games, including some pretty popular modules now on the Garry’s Mod workshop. So here he is because he coded the site I asked him to do from the instructions provided. She is a serious, competent person who knows how to make ingenious proposals to make a project more alive.</p>
                     </div>
                     <div class="Collaborators-item" onClick="ShowModal(this)">
                         <img src="static/lecoin.png" title='Xavier "Vyn" Esnault' alt='Xavier "Vyn" Esnault'/>
-                        <p>The Corner est à la base un simple Discord entre amis, mais de temps en temps nous faisons des projets pour nous amuser. Cela va du « shitposting » à partir de memes, jusqu’à l’animation. Mais nous sommes en train de nous investir à sortir des vidéos et autres montages afin de faire de cette famille devienne une vraie communauté.</p>
+                        <p>The Corner is basically a simple Discord between friends, but from time to time we make videos for some fun. It goes from “shitposting” with memes, to animation. But we are investing in making more content, in order to make this family become a real community.</p>
                     </div>
                     <div class="Collaborators-item" onClick="ShowModal(this)">
                         <img src="static/4_machins2.png" title="4 Machins" alt="4 Machins"/>
-                        <p>Les S.P sont un groupe de musiciens venant du grand sud de la France, l’Ariège. Ici pour vous faire rire, mais tout autant réfléchir avec leurs musiques revisitées aux paroles engagées. Un bon moment est tout de même garanti avec ces vieux messieurs à l’accent prononcé.
-    Je leur donne un coup de main pour leur donner des idées, afin de les mettre en avant, mais aussi en faisant leurs affiches, leurs logos, mais aussi de petits projets.</p>
+                        <p>Les S.P are a group of musicians from the great south of France, the Ariège. There to make you laugh, just as much as make you think with their revisited musics, with committed lyrics. A good time is guaranteed with these old gentlemen with a pronounced accent. I give them some help for new ideas, to put them forward, but also by making their posters, their logos, and also small projects.</p>
                     </div>
                     
                     <div class="Collaborators-item"></div>
@@ -196,39 +189,39 @@ Aujourd’hui, Qyu est ce qui représente mon nom en tant que créateur, dans la
             ShowCollaborators()
         </script>
         <div id="Information">
-            <h2>QUELQUES INFORMATIONS</h2>
+            <h2>FURTHER DETAILS</h2>
             <div class="Information-list">
                 <div class="Information-item">
                     <div class="Information-item-image" style="background-image: url('static/checklist.png'); background-size: 64px;"></div>
                     <div class="Information-item-count">37</div>
-                    <div class="Information-item-text">PROJECTS RÉALISÉS</div>
+                    <div class="Information-item-text">ACHIEVED PROJECTS</div>
                 </div>
                 <div class="Information-item">
                     <div class="Information-item-image" style="background-image: url('static/stats.png'); background-size: 96px;"></div>
                     <div class="Information-item-count">182</div>
-                    <div class="Information-item-text">MEME SHITPOSTÉS</div>
+                    <div class="Information-item-text">SHITPOSTED MEMES</div>
                 </div>
                 <div class="Information-item">
                     <div class="Information-item-image" style="background-image: url('static/map_tresure.png'); background-size: 96px;"></div>
                     <div class="Information-item-count">251</div>
-                    <div class="Information-item-text">AVENTURES COMPLÉTÉES</div>
+                    <div class="Information-item-text">COMPLETED ADVENTURES</div>
                 </div>
             </div>
         </div>
         <div id="NextProjects">
-            <h2>MES PROJETS À VENIR</h2>
+            <h2>INCOMING PROJECTS</h2>
             <div class="NextProjects-list">
                 <div class="NextProjects-item" onClick="ShowModal(this)">
                     <img src="static/lecoin.png" title="Le Coin" alt="Le Coin"/>
-                    <p>Développement de The Corner. Des jeux-vidéos, des amis, un maximum de fun, tout ça mixé avec des références de pop-culture, et d'autres provenant d'univers alternatifs.</p>
+                    <p>Development of The Corner. Video games, friends, maximum of fun, all mixed with pop-culture references, and others from ones alternative worlds.</p>
                 </div>
                 <div class="NextProjects-item" onClick="ShowModal(this)">
                     <img src="static/true.png" title="TRUE" alt="TRUE"/>
-                    <p>True est à la base une sorte de projet que j’ai fais sur ma première chaîne Youtube, racontant l’histoire d’un jeu en y intégrant un montage dynamique, une musique épique, et un maximum d’amour et d’émotions.</p>
+                    <p>True is basically a kind of project that I did on my first Youtube channel, telling the story of a game by integrating a dynamic montage, epic music, and maximum love and emotions.</p>
                 </div>
                 <div class="NextProjects-item" onClick="ShowModal(this)">
                     <img src="static/Games_Heart_icon.png" title="Game's Heart" alt="Game's Heart"/>
-                    <p>Game’s Heart est une web-série fictionnel que je suis entrain d’écrire qui parle de jeux vidéos, et que j’aimerais un jour pouvoir produire par mes propres moyens.</p>
+                    <p>Games Heart is a fictional web-series that I am writing, that talks about video games, and that I would one day like to be able to produce on my own.</p>
                 </div>
             </div>
         </div>
