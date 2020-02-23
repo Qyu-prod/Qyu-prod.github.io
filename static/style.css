@@ -30,6 +30,7 @@ body
 
 header
 {
+    position: relative;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -37,6 +38,21 @@ header
     font-weight: bold;
     color: white;
     background-color: rgb(54, 54, 54);
+}
+
+.Header-language
+{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+.Header-language img
+{
+    height: 20px;
+
 }
 
 .Header-button
