@@ -323,6 +323,40 @@ header
     display: none;
 }
 
+#Video
+{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+    border-bottom: 25px solid #FFFAEC;
+}
+
+.Video-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Video-item
+{
+    width: 24vw;
+    height: 14vw;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: none;
+}
+
 #Formations
 {
     text-align: center;
