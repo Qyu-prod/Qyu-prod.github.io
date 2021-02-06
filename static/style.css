@@ -70,8 +70,8 @@ header
     display: flex;
     flex-direction: column;
 
-    color: rgb(200, 200, 200);
-    background-color: rgb(13, 13, 13);
+    color: rgb(42, 43, 53);
+    background-color: rgb(42, 43, 53);
 }
 
 #Title
